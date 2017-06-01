@@ -1,0 +1,241 @@
+/*basic page styles*/
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+
+/*header styles*/
+nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+	height: 80px;
+	width: 100%;
+	background-color: #fafafa;
+
+	margin-bottom: 50px;
+}
+
+.goAway {
+	background-color: rgba(0,0,0,.34);
+	float: right;
+	margin-right: 10px
+}
+
+.soundcloud {
+	border-radius: 48px;
+	height: 36px;
+	width: 36px;
+}
+
+.instagram {
+	border-radius: 16px;
+	height: 40px;
+	width: 40px;
+}
+
+.contact {
+	border-radius: 8px;
+	height: 44px;
+	width: 44px;
+}
+
+.other {
+	height: 48px;
+	width: 48px;
+}
+
+
+/*iMessage area*/
+
+.conversations {
+	clear: both;
+	height: 100%;
+}
+
+h3 {
+	display: inline-block;
+}
+
+.comment {
+	width: 48%;
+	min-height: 100px;
+	color: white;
+	clear: both;
+	padding: 20px;
+	margin: 40px;
+}
+
+footer {
+	background-color: #eee;
+	height: 100px;
+	margin-top: 30px;
+	text-align: center;
+
+	padding: 10rem;
+}
+
+.ofNote {
+	color: rgba(0,0,0,.14);
+}
+
+
+/*individual styles*/
+
+.postColin {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.colin {
+	background-color: #1AC800;
+	padding-right: 15px;
+	margin-right: 10px
+}
+
+.colin::before {
+	content: "C";
+	color: black;
+	display: block;
+	margin-bottom: 1rem;
+	background-color: white
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.postWill {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.will {
+	background-color: #0078FE;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.will::before {
+	content: "W";
+	color: black;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+
+/*all you can eat styles*/
+
+
+.buffetTable {
+	height: 65px;
+	background-color: green;
+	margin-bottom: 80px;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: row;
+	-webkit-box-direction: row;
+    -ms-flex-direction: crow;
+    flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.wrap {
+	margin: 40px 160px;
+	margin-top: 0px;
+	display: block;
+}
+
+.sideDish {
+	float: right;
+	width: 300px;
+	height: 600px;
+	/*box-shadow: rgba(0,0,0);*/
+	margin-left: 80px;
+}
+
+.mainDish {
+	width: 66%;
+}
+
+.meal {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 800px;
+}
+
+
+.backToConvo {
+	width: 60px;
+   height: 40px;
+   background: white;
+   position: relative;
+   -moz-border-radius:    5px;
+   -webkit-border-radius: 5px;
+   border-radius:         5px;
+   margin-left: 10px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.backToConvo:visited {
+   text-align: center;
+   text-decoration: none;
+}
+
+.backToConvo:before { 
+
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 13px;
+   width: 0;
+   height: 0;
+   border-top: 6.5px solid transparent;
+   border-right: 13px solid white;
+   border-bottom: 6.5px solid transparent;
+}
