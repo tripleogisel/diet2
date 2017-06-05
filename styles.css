@@ -1,4 +1,4 @@
-/*basic page styles*/
+basic page styles*/
 
 p {
     display: block;
@@ -10,6 +10,9 @@ p {
 
 body {
 	margin: 0px;
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -23,47 +26,54 @@ nav {
     -ms-flex-direction: column;
     flex-direction: row;
 	-ms-flex-pack: distribute;
-	justify-content: flex-end;
+	justify-content: flex-start;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
 
-	height: 80px;
+	height: 5rem;
 	width: 100%;
 	background-color: #fafafa;
 
-	margin-bottom: 50px;
+	margin-bottom: 6rem;
+	padding: .75rem;
 }
 
 .goAway {
 	background-color: rgba(0,0,0,.34);
-	float: right;
-	margin-right: 10px
+}
+
+.local {
+	background-color: blue;
+}
+
+.deselected {
+	opacity: .34;
 }
 
 .soundcloud {
-	border-radius: 48px;
-	height: 36px;
-	width: 36px;
+	border-radius: 3rem;
 }
 
 .instagram {
-	border-radius: 16px;
-	height: 40px;
-	width: 40px;
+	border-radius: 1rem;
 }
 
 .contact {
-	border-radius: 8px;
-	height: 44px;
-	width: 44px;
+	border-radius: .5rem;
 }
 
 .other {
-	height: 48px;
-	width: 48px;
+	border-radius: 1rem;
 }
 
+
+
+nav > a > div {
+	height: 3rem;
+	width: 3rem;
+	margin-left: 1.5rem;	
+}
 
 /*iMessage area*/
 
@@ -85,6 +95,11 @@ h3 {
 	margin: 40px;
 }
 
+.comment:hover {
+	background-color: white;
+	color: black;
+}
+
 footer {
 	background-color: #eee;
 	height: 100px;
@@ -99,7 +114,7 @@ footer {
 }
 
 
-/*individual styles*/
+/*iMessage styles*/
 
 .postColin {
 	display: -webkit-box;
@@ -160,10 +175,78 @@ footer {
 	margin-bottom: 1rem;
 }
 
+/*end iMESSAGE styles*/
 
-/*all you can eat styles*/
+
+/*start text styles*/
+
+p {
+	text-align: left;
+	width: 60%;
+	margin: 1rem;
+	font-size: 2.5rem;
+}
+
+.disclaimer {
+	color: grey;
+	font-size: .75rem;
+	text-align: right;
+	font-style: italic;
+	width: 85%;
+}
+
+.quoteMark {
+	font-size: 5rem;
+	margin-bottom: 0;
+}
+
+.quoteMarkButton {
+	font-size: 7.5rem;
+	margin-bottom: 3rem;
+	color: blue;
+	text-decoration: none;
+}
+
+.quoteMarkButtonContainer {
+	text-align: right;
+}
+
+.quoteMarkButton:visited {
+	color: blue;
+}
 
 
+.quote {
+	margin: 0rem 3rem .5rem;
+}
+
+.quoteContainer {
+	padding: 2rem;
+}
+
+/*mobile ish sizes*/
+@media (max-width: 480px){
+	nav > a > div {
+		height: 1.5rem;
+		width: 1.5rem;
+		margin-left: .75rem;	
+}
+	p {
+		width: 75%;
+		font-size: 1.25rem;
+	}
+
+	.disclaimer {
+		width: 60%;
+		text-align: right;
+	}
+
+}
+
+/*/*all you can eat styles*/
+/**/
+
+/*
 .buffetTable {
 	height: 65px;
 	background-color: green;
@@ -206,36 +289,4 @@ footer {
 	margin-bottom: 50px;
 	width: 100%;
 	height: 800px;
-}
-
-
-.backToConvo {
-	width: 60px;
-   height: 40px;
-   background: white;
-   position: relative;
-   -moz-border-radius:    5px;
-   -webkit-border-radius: 5px;
-   border-radius:         5px;
-   margin-left: 10px;
-   text-align: center;
-   text-decoration: none;
-}
-
-.backToConvo:visited {
-   text-align: center;
-   text-decoration: none;
-}
-
-.backToConvo:before { 
-
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 13px;
-   width: 0;
-   height: 0;
-   border-top: 6.5px solid transparent;
-   border-right: 13px solid white;
-   border-bottom: 6.5px solid transparent;
-}
+}*/
