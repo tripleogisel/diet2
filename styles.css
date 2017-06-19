@@ -179,25 +179,37 @@ footer {
 
 
 /*start text styles*/
-
+inter
 p {
 	text-align: left;
-	width: 60%;
-	margin: 1rem;
 	font-size: 2.5rem;
 }
 
-.disclaimer {
-	color: grey;
+.baby {
+	color: #ccc;
+	font-size: .75rem;
+	text-align: left;
+	font-style: italic;
+	width: 50%;
+	margin-left: 4rem;
+}
+
+.babyDark {
+	color: #3a3a3a;
 	font-size: .75rem;
 	text-align: right;
 	font-style: italic;
-	width: 85%;
+	font-weight: bold;
 }
 
 .quoteMark {
 	font-size: 5rem;
-	margin-bottom: 0;
+	margin-top: 7rem;
+}
+
+.interNotes {
+	padding-right: 40rem;
+	font-size: 1.25rem;
 }
 
 .quoteMarkButton {
@@ -205,10 +217,15 @@ p {
 	margin-bottom: 3rem;
 	color: blue;
 	text-decoration: none;
+	text-align: right;
+	display: block;
 }
 
 .quoteMarkButtonContainer {
 	text-align: right;
+	padding-right: 4rem;
+	/*margin-right: 20rem;*/
+
 }
 
 .quoteMarkButton:visited {
@@ -220,8 +237,8 @@ p {
 	margin: 0rem 3rem .5rem;
 }
 
-.quoteContainer {
-	padding: 2rem;
+.interviewFeed {
+	padding: 5rem
 }
 
 /*mobile ish sizes*/
@@ -232,16 +249,39 @@ p {
 		margin-left: .75rem;	
 }
 	p {
-		width: 75%;
 		font-size: 1.25rem;
-	}
-
-	.disclaimer {
-		width: 60%;
-		text-align: right;
-	}
-
 }
+
+.interviewFeed {
+	padding: 2rem 0rem 2rem 2.5rem;
+}
+
+	.baby {
+		width: 65%;
+		margin-left: 3rem;
+		
+}
+
+	.babydark {
+    color: #3a3a3a;
+    font-size: 1.75rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+	.interNotes {
+		width: 95%;
+}
+
+
+
+	.quoteMarkButtonContainer {
+    text-align: right;
+    margin-right: 0rem; 
+}
+
+	.quoteMarkButton {
+	font-size: 4rem;
 
 /*/*all you can eat styles*/
 /**/
@@ -277,7 +317,7 @@ p {
 	width: 300px;
 	height: 600px;
 	/*box-shadow: rgba(0,0,0);*/
-	margin-left: 80px;
+/*	margin-left: 80px;*/
 }
 
 .mainDish {
