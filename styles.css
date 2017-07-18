@@ -16,6 +16,10 @@ body {
 }
 
 
+nav > a {
+  margin: .75rem;
+}
+
 /*header styles*/
 nav {
 	display: -webkit-box;
@@ -36,7 +40,6 @@ nav {
 	background-color: #fafafa;
 
 	margin-bottom: 6rem;
-	padding: .75rem;
 }
 
 .goAway {
@@ -72,7 +75,7 @@ nav {
 nav > a > div {
 	height: 3rem;
 	width: 3rem;
-	margin-left: 1.5rem;	
+	margin-left: 1.5rem;
 }
 
 /*iMessage area*/
@@ -208,8 +211,8 @@ p {
 }
 
 .interNotes {
-	padding-right: 40rem;
 	font-size: 1.25rem;
+  width: 60%;
 }
 
 .quoteMarkButton {
@@ -246,7 +249,7 @@ p {
 	nav > a > div {
 		height: 1.5rem;
 		width: 1.5rem;
-		margin-left: .75rem;	
+		margin-left: .75rem;
 }
 	p {
 		font-size: 1.25rem;
@@ -259,7 +262,7 @@ p {
 	.baby {
 		width: 65%;
 		margin-left: 3rem;
-		
+
 }
 
 	.babydark {
@@ -277,7 +280,7 @@ p {
 
 	.quoteMarkButtonContainer {
     text-align: right;
-    margin-right: 0rem; 
+    margin-right: 0rem;
 }
 
 	.quoteMarkButton {
