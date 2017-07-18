@@ -47,7 +47,7 @@ nav {
 }
 
 .local {
-	background-color: blue;
+	background-color: #0abab5;
 }
 
 .deselected {
@@ -218,7 +218,7 @@ p {
 .quoteMarkButton {
 	font-size: 7.5rem;
 	margin-bottom: 3rem;
-	color: blue;
+	color: #0abab5;
 	text-decoration: none;
 	text-align: right;
 	display: block;
@@ -232,7 +232,7 @@ p {
 }
 
 .quoteMarkButton:visited {
-	color: blue;
+	color: #0abab5;
 }
 
 
