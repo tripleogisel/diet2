@@ -1,0 +1,200 @@
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+body {
+	margin: 0px;
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+header {
+	background-color: black;
+	height: 4rem;
+	text-align: center;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	line-height: 4rem;
+}
+
+header a {
+	background-color: white;
+}
+
+.homeImage {
+	width: 100%;
+}
+
+.homeImage > img {
+	height: 16rem;
+	display: block;
+	margin: auto;
+}
+
+.jumpOff {
+	/*background-color: #fafafa;*/
+}
+
+
+.jumpOff a {
+	display: inline-block;
+	text-align: center;
+	padding: 2rem 0rem;
+	width: 49.5%;
+	height: 20rem;
+	line-height: 20rem;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.events {
+	background-color: blue;
+}
+
+.insta {
+	background-color: purple;
+}
+
+.jumpOff a:hover {
+	text-decoration: underline;
+}
+
+.swhPoster {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+footer {
+	background-color: #eee;
+	height: 100px;
+	text-align: center;
+
+	padding: 10rem;
+}
+
+
+
+@media (max-width: 480px){ 
+
+	.jumpOff a {
+		display: block;
+		width: 100%;
+		/*margin: 1rem 1rem 0rem;*/
+		padding: 0rem;
+		font-size: 1rem;
+	}
+
+	.jumpOff a:hover {
+	text-decoration: none;
+	}
+
+	.jumpOff a:active {
+		text-decoration: underline;
+	}
+}
+
+
+
+
+
+/*INTERVIEW STYLES OLDDDDDDDDDDDDDDDDDD*/
+/*
+p {
+	text-align: left;
+	font-size: 2.5rem;
+}
+
+.baby {
+	color: #ccc;
+	font-size: .75rem;
+	text-align: left;
+	font-style: italic;
+	width: 50%;
+	margin-left: 4rem;
+}
+
+.babyDark {
+	color: #3a3a3a;
+	font-size: .75rem;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.quoteMark {
+	font-size: 5rem;
+	margin-top: 7rem;
+}
+
+.interNotes {
+	font-size: 1.25rem;
+  width: 60%;
+}
+
+.quoteMarkButton {
+	font-size: 7.5rem;
+	margin-bottom: 3rem;
+	color: #0abab5;
+	text-decoration: none;
+	text-align: right;
+	display: block;
+}
+
+.quoteMarkButtonContainer {
+	text-align: right;
+	padding-right: 4rem;
+	/*margin-right: 20rem;*/
+
+}
+
+/*.quoteMarkButton:visited {
+	color: #0abab5;
+}
+
+
+.quote {
+	margin: 0rem 3rem .5rem;
+}
+
+.interviewFeed {
+	padding: 5rem
+}
+
+/*mobile ish sizes*/
+/*/*/*/*@media (max-width: 480px){/**/*/
+/*p {
+		font-size: 1.25rem;
+}
+
+.interviewFeed {
+	padding: 2rem 0rem 2rem 2.5rem;
+}
+
+	.baby {
+		width: 65%;
+		margin-left: 3rem;
+
+}
+
+	.babydark {
+    color: #3a3a3a;
+    font-size: 1.75rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+	.interNotes {
+		width: 95%;*/
+}
+}
+*/*/*/*/*/
