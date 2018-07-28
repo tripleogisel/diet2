@@ -220,9 +220,10 @@ footer {
 .shot {
 	display: block;
 	max-width: 800px;
-	margin: 2rem auto 0rem auto;
+	margin: 2rem auto 8rem auto;
 	/*border: 4px solid #000;*/
 }
+
 
 
 
@@ -293,13 +294,16 @@ footer {
 	text-decoration: none;
 	}
 
+.photoStream
+
 	.jumpOff a:active {
 		text-decoration: underline;
 	}
 
-	.shot {
-		max-width: 80%;
-		margin: .5rem auto;
+  .shot {
+  	display: block;
+  	max-width: 80%;
+  	margin: 2rem auto 8rem auto;
   }
     .end {
       padding: 8rem 2rem;
