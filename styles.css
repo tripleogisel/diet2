@@ -21,6 +21,12 @@ p {
   text-align: center;
 }
 
+body {
+    display: block;
+    margin: 0px;
+}
+
+
 .names > p:nth-child(1) {
   color: black;
 }
