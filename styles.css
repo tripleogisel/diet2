@@ -21,6 +21,10 @@ p {
   text-align: center;
 }
 
+.names > p:nth-child(1) {
+  color: black;
+}
+
 .names > p {
   margin-bottom: 1rem;
 }
@@ -30,15 +34,11 @@ li {
 }
 
 .loudClause {
-  font-size: 4.75rem;
-  margin: 0rem 0rem 0rem 2rem;
-  background-color: forestgreen;
-  border-bottom: darkgreen 4rem solid;
-  border-left: darkgreen 4rem solid;
+  font-size: 1.75rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
-h2 {
-  text-align: right;
+h2 {;
   font-size: 2rem;
 }
 
@@ -66,22 +66,39 @@ li {
   margin-left: 1rem;
 }
 
-.capabilityDescription:hover {
-  font-weight: bold;
+.logos {
+  background-color: black;
 }
+
 .footer {
   background-color: black;
     padding: 16em 0rem 48rem;
 }
 
 .footer > a {
+  font-size: 3rem;
+  display: block;
+}
+
+.footer > a:nth-child(1) {
+  color: red;
+}
+
+.footer > a:nth-child(2) {
+  color: green;
+}
+
+.footer > a:nth-child(3) {
   color: blue;
-  font-size: 10rem;
+}
+
+.footer > a:nth-child(4) {
+  color: yellow;
 }
 
 .footer > a:hover {
   color: purple;
-  font-size: 11rem;
+  font-size: 3rem;
 }
 
 .alsoDo > ol {
@@ -142,13 +159,13 @@ ol {
 @media (max-width: 480px){
 
   .loudClause {
-    font-size: 1rem;
-    margin: 0rem 0rem 0rem 2rem;
-    background-color: forestgreen;
-    border-bottom: darkgreen 1rem solid;
-    border-left: darkgreen 1rem solid;
+    font-size: .75rem;
+    margin: 0rem;
   }
 
+  h2 {
+    font-size: 1rem;
+  }
 
   .alsoDo > ol > li > p {
     font-size: .6rem
@@ -167,7 +184,7 @@ ol {
 }
 
 h4 {
-  margin: 2rem;
+  margin: 0rem;
 }
 
   .capabilityDescription {
@@ -189,11 +206,6 @@ h4 {
     padding: .25rem .5rem;
     border-bottom: 1rem solid black;
     color: blue;
-  }
-
-  h2 {
-    text-align: left;
-    font-size: 1.5rem;
   }
 
   .footer > a {
