@@ -18,6 +18,10 @@ html {
   border-bottom: 2px solid rgba(0, 0, 0, 0.14);
 }
 
+.main>a {
+  color: white;
+}
+
 .main>a:visited {
   color: white;
 }
