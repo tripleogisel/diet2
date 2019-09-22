@@ -3,6 +3,32 @@ html {
   font-family: "Helvetica Neue", Helvetica, Serif;
 }
 
+.clickArea {
+  text-align: center;
+  padding: 4rem 0rem 0rem;
+}
+
+.main {
+  padding: 1rem 2rem;
+  drop-shadow: 0;
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.14);
+}
+
+.main>a:visited {
+  color: white;
+}
+
+.main:hover {
+  background-color: white;
+  color: blue;
+  border: none;
+  text-decoration: underline;
+}
+
 p {
     display: block;
     -webkit-margin-before: 0em;
