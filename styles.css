@@ -8,6 +8,35 @@ html {
   padding: 4rem 0rem 0rem;
 }
 
+.golfStuff {
+  margin: 8rem;
+}
+
+.golfStuff > img {
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+
+.golfStuff > .loudClause {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.golfFooter {
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.golfStuff > h3 {
+}
+
+#golfLogo {
+  max-width: 40%;
+}
+
 .main {
   padding: 1rem 2rem;
   drop-shadow: 0;
@@ -16,17 +45,18 @@ html {
   font-size: 1rem;
   border: none;
   border-bottom: 2px solid rgba(0, 0, 0, 0.14);
+  text-decoration: none;
 }
 
-.main>a {
+/* .main>a {
   color: white;
-}
+} */
 
 .main>a:visited {
   color: white;
 }
 
-.main:hover {
+.main>a:hover {
   background-color: white;
   color: blue;
   border: none;
@@ -199,6 +229,16 @@ ol {
     margin: 0rem;
   }
 
+  .clickArea {
+    text-align: center;
+    padding: 1rem 0rem 2rem;
+  }
+
+  .main {
+    padding: .5rem;
+    font-size: .75rem;
+  }
+
   h2 {
     font-size: 1rem;
   }
@@ -207,7 +247,27 @@ ol {
     font-size: .6rem
   }
 
-  .number {
+  .golfStuff {
+    margin: 1rem 0rem;
+  }
+
+  .golfStuff > img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .golfStuff > .loudClause {
+    margin: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .golfStuff > h3 {
+    margin: 1.5rem;
+    font-size: 1rem;
+  }
+
+  #golfLogo {
+    max-width: 80%;
   }
 
   .alsoDo > ol > li {
@@ -235,6 +295,14 @@ h4 {
 
   img {
     width: 60%;
+  }
+
+  .golfFooter {
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 1rem;
   }
 
   .number {
