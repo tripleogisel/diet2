@@ -201,6 +201,16 @@ footer p, a {
     background-color: #fafafa;
   }
 
+  .contact h3 {
+    margin: 0rem 2rem;
+    font-size: .75rem;
+  }
+
+  .reasons > div > p {
+    text-align: center;
+    width: 100%;
+  }
+
   .field {
     height: 32px;
     width: 300px;
@@ -232,12 +242,22 @@ footer p, a {
 
   .reasons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0rem;
+  }
+
+  .reasons > div > p {
+    margin-top: 0rem;
   }
 
   .reasons > p {
@@ -266,8 +286,8 @@ footer p, a {
   }
 
   .reviews {
-    margin: 1rem 2rem 3rem 2rem;
     font-size: .75rem;
+    padding: 2rem 2rem;
     background-color: #eee;
   }
 
