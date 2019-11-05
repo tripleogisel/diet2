@@ -4,6 +4,12 @@ html {
   color: rgba(0, 0, 0, 0.9);
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0rem;
+}
+
 .logo {
   float: left;
   display: inline-block;
@@ -11,6 +17,58 @@ html {
   width: 7rem;
   margin: .5rem 0rem 0rem .5rem;
   }
+
+.facts {
+  background-color: #fafafa;
+}
+
+.reviews {
+  background-color: #eee;
+}
+
+.contact {
+  background-color: #eee;
+  padding: 1rem 0rem;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.field {
+  height: 32px;
+  width: 400px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  padding: 24px 0px 4px 0px;
+}
+
+.message {
+  height: 120px;
+}
+
+form {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Serif;
+}
+
+.sendButton {
+  margin-top: 24px;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+.sendButton:hover {
+  text-decoration: underline;
+}
 
 body {
   margin: 0;
@@ -52,7 +110,12 @@ nav > a {
   text-transform: uppercase;
   border-radius: 1.5rem;
   float: right;
+  text-decoration: none;
   display: inline-block;
+}
+
+nav > a:hover {
+    text-decoration: underline;
 }
 
 
@@ -64,6 +127,7 @@ nav > a {
 
 .reasons {
   display: flex;
+  text-align: center;
   flex-direction: row;
   flex-wrap: nowrap;
   flex-flow: row;
@@ -71,16 +135,16 @@ nav > a {
   align-items: center;
   align-content: space-between;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 4rem 4rem 4rem;
 }
 
-.reasons > p {
+.reasons > div > p {
   text-align: center;
-  width: 16rem;
+  width: 18rem;
 }
 
 .reviews {
-  margin: 8rem 12rem;
+  padding: 4rem 12rem;
 }
 
 .gallery {
@@ -129,6 +193,11 @@ footer p, a {
     background-color: #fafafa;
   }
 
+  .field {
+    height: 32px;
+    width: 300px;
+  }
+
   nav > a {
     font-size: 10px;
     margin: 0 auto;
@@ -150,14 +219,14 @@ footer p, a {
 
   .facts > h3 {
     padding: 0rem .5rem;
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .reasons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
@@ -191,6 +260,7 @@ footer p, a {
   .reviews {
     margin: 1rem 2rem 3rem 2rem;
     font-size: .75rem;
+    background-color: #eee;
   }
 
   footer {
