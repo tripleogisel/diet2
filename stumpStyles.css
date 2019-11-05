@@ -140,11 +140,18 @@ nav > a:hover {
 
 .reasons > div > p {
   text-align: center;
-  width: 18rem;
+  width: 16rem;
 }
 
 .reviews {
-  padding: 4rem 12rem;
+  padding: 2rem 12rem;
+}
+
+.reviews > a {
+  padding: 2rem 0rem;
+  color: blue;
+  text-decoration: underline;
+  margin: 0rem;
 }
 
 .gallery {
@@ -157,7 +164,7 @@ nav > a:hover {
   align-content: space-between;
   margin: 0 auto;
   padding: 4rem 0rem;
-  background-color: rgba(0,0,0, .87);
+  background-color: #222;
 }
 
 .label {
@@ -177,8 +184,9 @@ body > div.reviews > p:nth-child(2) {
 
 footer {
   text-align: center;
-  background-color: #ccc;
+  background-color: #111;
   padding: 8rem;
+  color: white;
 }
 
 footer p, a {
