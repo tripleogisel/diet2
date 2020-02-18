@@ -1,0 +1,73 @@
+html {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Serif;
+}
+
+body {
+  background-color: white;
+  color: #191919;
+  margin: 0px;
+}
+
+.xxx {
+  padding: 10rem;
+  display: block;
+  border-top: solid 300px #191919;
+}
+
+.coreText {
+  font-size: 150px;
+  text-overflow: clip;
+  font-weight: 420;
+  margin: 0px;
+}
+
+nav>img {
+  margin: 0 auto;
+  padding: 16rem;
+  max-width: 100px;
+  display: block;
+}
+
+.description {
+  margin-top: 4rem;
+}
+
+.basics {
+  padding: 5rem 0rem 0rem;
+}
+
+.gallery {
+  display: block;
+}
+
+.gallery > img {
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.gallery > .description {
+  text-align: center;
+}
+
+.email {
+  color: blue;
+}
+
+
+/*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*/
+
+@media (max-width: 480px){
+  .xxx {
+    padding: 1rem;
+    display: block;
+  }
+
+  .coreText {
+    margin-top: 20rem;
+    font-size: 48px;
+    font-weight: 500;
+  }
