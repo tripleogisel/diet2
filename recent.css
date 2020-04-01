@@ -21,6 +21,22 @@ body {
   background-color: #FEFF84;
 }
 
+.bottom {
+  background-color: #eee;
+  border-bottom: 3px solid #ccc;
+  padding: 12rem 4rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+/* .gallery > img {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .08)
+}
+
+.preShadow {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .0)
+} */
+
 .reading {
   font-size: 20px;
   font-variant: normal;
