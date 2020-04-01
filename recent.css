@@ -9,10 +9,54 @@ body {
   margin: 0px;
 }
 
+.blog {
+  background-color: yellow;
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+  padding: 3rem 0rem 3rem 10rem;
+}
+
+.blog:hover {
+  background-color: #FEFF84;
+}
+
+.reading {
+  font-size: 20px;
+  font-variant: normal;
+  line-height: 26px;
+}
+
+.reading::first-letter {
+  font-weight: bold;
+  font-size: 20.5px;
+  line-height: 27px;
+}
+
+.signatures {
+  margin-bottom: 2.5rem;
+}
+
+#dietpage {
+  padding: 25rem;
+}
+
+.blog a {
+  font-variant: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
 .xxx {
   padding: 10rem;
   display: block;
   border-top: solid 300px #191919;
+}
+
+.xxx:hover {
+    border-top: solid 350px #333333;
+
 }
 
 .coreText {
@@ -62,9 +106,20 @@ nav>img {
 
 @media (max-width: 480px){
   .xxx {
-    padding: 1rem;
+    padding: .5rem;
     display: block;
+    border-top: solid 220px #191919;
   }
+
+  .blog {
+    padding: .5rem;
+  }
+
+  #dietpage {
+    padding: 2.5rem;
+  }
+
+
 
   .coreText {
     margin-top: 20rem;
