@@ -67,11 +67,11 @@ body {
 .xxx {
   padding: 10rem;
   display: block;
-  border-top: solid 300px #191919;
+  border-top: solid 220px #191919;
 }
 
 .xxx:hover {
-    border-top: solid 350px #333333;
+    border-top: solid 250px #333333;
 
 }
 
