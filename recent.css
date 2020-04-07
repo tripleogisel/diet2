@@ -9,6 +9,205 @@ body {
   margin: 0px;
 }
 
+.mixes a {
+  display: block;
+  text-decoration: none;
+  font-variant: normal;
+  font-style: normal;
+  padding: 9rem;
+  text-align: center;
+  color: white;
+}
+
+.musicButton {
+  color: blue;
+}
+
+.backHome {
+  text-align: center;
+  padding: 3rem 1rem 0rem 3rem;
+  background-color: black;
+  color: yellow;
+}
+
+.top {
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 200px;
+  color: #ccc;
+}
+
+.mixes a:visited {
+  display: block;
+  text-decoration: none;
+  font-variant: normal;
+  font-style: normal;
+  padding: 9rem;
+  text-align: center;
+  color: white;
+
+}
+
+.mixes a:hover {
+  padding: 11rem;
+}
+
+.mixes :nth-child(1) {
+  background-color: #00aabb;
+}
+.mixes :nth-child(2) {
+  background-color: #333000;
+}
+.mixes :nth-child(3) {
+  background-color: #121212;
+}
+.mixes :nth-child(4) {
+  background-color: #1144aa;
+}
+.mixes :nth-child(5) {
+  background-color: #111;
+}
+.mixes :nth-child(6) {
+  background-color: #1aa;
+}
+.mixes :nth-child(7) {
+  background-color: red;
+}
+.mixes :nth-child(8) {
+  background-color: blue;
+}
+.mixes :nth-child(9) {
+  background-color: purple;
+}
+.mixes :nth-child(10) {
+  background-color: #000011;
+}
+.mixes :nth-child(11) {
+  background-color: #9999cc;
+}
+.mixes :nth-child(12) {
+  background-color: #111888;
+}
+.mixes :nth-child(13) {
+  background-color: #777aaa;
+}
+.mixes :nth-child(14) {
+  background-color: #666aaa;
+}
+.mixes :nth-child(15) {
+  background-color: #111bbb;
+}
+.mixes :nth-child(16) {
+  background-color: #bbbaaa;
+}
+.mixes :nth-child(17) {
+  background-color:#121212;
+}
+.mixes :nth-child(18) {
+  background-color: #1567aa;
+}
+.mixes :nth-child(19) {
+  background-color: #aaa278;
+}
+.mixes :nth-child(20) {
+  background-color: #666aaa;
+}
+.mixes :nth-child(21) {
+  background-color: #898aaa;
+}
+.mixes :nth-child(22) {
+  background-color: #aaabbb;
+}
+.mixes :nth-child(23) {
+  background-color: #676767;
+}
+.mixes :nth-child(24) {
+  background-color: #333333;
+}
+.mixes :nth-child(25) {
+  background-color: #123124;
+}
+.mixes :nth-child(26) {
+  background-color: #111999;
+}
+.mixes :nth-child(27) {
+  background-color: #999000;
+}
+.mixes :nth-child(28) {
+  background-color: green;
+}
+.mixes :nth-child(29) {
+  background-color: blue;
+}
+.mixes :nth-child(30) {
+  background-color: lavender;
+}
+.mixes :nth-child(31) {
+  background-color: #445566;
+}
+.mixes :nth-child(32) {
+  background-color: #112233;
+}
+.mixes :nth-child(33) {
+  background-color: #990011;
+}
+.mixes :nth-child(34) {
+  background-color: #441166;
+}
+.mixes :nth-child(35) {
+  background-color: #667711;
+}
+.mixes :nth-child(36) {
+  background-color: #110011;
+}
+.mixes :nth-child(37) {
+  background-color: #155511;
+}
+.mixes :nth-child(38) {
+  background-color: #aabbcc;
+}
+.mixes :nth-child(39) {
+  background-color: #eeaa11;
+}
+.mixes :nth-child(40) {
+  background-color: #00aa99;
+}
+.mixes :nth-child(41) {
+  background-color: #55bb00;
+}
+.mixes :nth-child(42) {
+  background-color: black;
+}
+/* .mixes :nth-child(43) {
+  background-color: black;
+}
+.mixes :nth-child(44) {
+  background-color: black;
+}
+.mixes :nth-child(45) {
+  background-color: black;
+}
+.mixes :nth-child(46) {
+  background-color: black;
+}
+.mixes :nth-child(47) {
+  background-color: black;
+}
+.mixes :nth-child(48) {
+  background-color: black;
+}
+.mixes :nth-child(49) {
+  background-color: black;
+}
+.mixes :nth-child(50) {
+  background-color: black;
+}
+.mixes :nth-child(51) {
+  background-color: black;
+} */
+
+
 .blog {
   background-color: yellow;
   color: black;
@@ -67,17 +266,16 @@ body {
 .xxx {
   padding: 10rem;
   display: block;
-  border-top: solid 220px #191919;
+  border-top: solid 300px #191919;
 }
 
 .xxx:hover {
-    border-top: solid 250px #333333;
+    border-top: solid 350px #333333;
 
 }
 
 .coreText {
   font-size: 150px;
-  line-height: 156px;
   text-overflow: clip;
   font-weight: 420;
   margin: 0px;
@@ -141,6 +339,5 @@ nav>img {
   .coreText {
     margin-top: 20rem;
     font-size: 48px;
-    line-height: 56px;
     font-weight: 500;
   }
