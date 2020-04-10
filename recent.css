@@ -9,6 +9,25 @@ body {
   margin: 0px;
 }
 
+.duoDiet img {
+  width: 200px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#hero {
+  width: 100%;
+}
+
+.blog a {
+  text-align: right;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+  color: #3a3a3a;
+}
+
 .mixes a {
   display: block;
   text-decoration: none;
@@ -17,6 +36,7 @@ body {
   padding: 9rem;
   text-align: center;
   color: white;
+  border-top: 2px solid rgba(0, 0, 0, 0.14);
 }
 
 .musicButton {
@@ -50,7 +70,8 @@ body {
 }
 
 .mixes a:hover {
-  padding: 11rem;
+  padding: 9rem;
+  color: blue;
 }
 
 .mixes :nth-child(1) {
@@ -208,12 +229,23 @@ body {
 } */
 
 
+.nonWritingYears {
+  text-align: center;
+}
+
+.nonWritingYears p {
+  padding: 4rem;
+  background-color: #eee;
+
+}
+
 .blog {
   background-color: yellow;
   color: black;
   font-family: serif;
   font-weight: bold;
-  padding: 3rem 0rem 3rem 10rem;
+  padding: 3rem 10rem 3rem 3rem;
+  text-align: right;
 }
 
 .blog:hover {
@@ -253,7 +285,31 @@ body {
 }
 
 #dietpage {
-  padding: 25rem;
+  padding: 15rem 25rem;
+}
+
+h3 {
+  margin-top: 0;
+  padding-top: 10rem;
+  font-family: serif;
+  font-weight: 600;
+
+}
+
+.duoDiet div {
+  margin-top: 4rem;
+}
+
+.duoDiet a {
+  color: blue;
+}
+
+.duoDiet {
+  padding: 0rem 20rem 10rem 20rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fafafa;
 }
 
 .blog a {
@@ -298,6 +354,8 @@ nav>img {
 
 .gallery {
   display: block;
+  background-color: #fafafa;
+  padding: 1rem;
 }
 
 .gallery > img {
@@ -326,6 +384,12 @@ nav>img {
     border-top: solid 220px #191919;
   }
 
+  .duoDiet img {
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
   .blog {
     padding: .5rem;
   }
@@ -335,9 +399,41 @@ nav>img {
   }
 
 
+  h3 {
+    margin-top: 0;
+    padding-top: 3rem;
+  }
+
+  .duoDiet div {
+    margin-top: 4rem;
+  }
+
+  .duoDiet a {
+    color: blue;
+  }
+
+  .blog a {
+    font-size: .8rem;
+    display: block;
+    padding-top: 1rem;
+    text-align: right;
+  }
+
+  .basics {
+    margin: 0rem 1.25rem 0rem 0rem;
+  }
+
+  .duoDiet {
+    padding: 0rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fafafa;
+  }
 
   .coreText {
-    margin-top: 20rem;
+    margin-top: 16rem;
     font-size: 48px;
     font-weight: 500;
   }
