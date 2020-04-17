@@ -19,6 +19,10 @@ body {
   width: 100%;
 }
 
+video {
+  margin: 0 auto;
+}
+
 .blog a {
   text-align: right;
 }
@@ -359,6 +363,14 @@ nav>img {
 }
 
 .gallery > img {
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.gallery > video {
   margin: 0 auto;
   display: block;
   max-width: 80%;
