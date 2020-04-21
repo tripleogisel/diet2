@@ -1,0 +1,102 @@
+html {
+  font-size: 18px;
+  font-family: "Courier";
+}
+
+
+.navImage {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+nav {
+  border-top: 248px solid #eee;
+}
+
+.read {
+  border-top: 72px solid #eee;
+}
+
+.mainButton {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0 auto;
+  display: block;
+  font-family: "Courier"
+  color: blue;
+  padding: 1rem;
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: bolder;
+  width: 100%;
+}
+button {
+-webkit-appearance: none;
+    text-rendering: auto;
+    color: blue;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: White;
+    box-sizing: border-box;
+    margin: 0em;
+    font-family: Courier;
+    padding: 2.4rem;
+    width: 100%;
+    border-width: 0px;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+button:hover {
+  border: 0px;
+}
+
+.mainButton:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: blue;
+
+}
+
+.section:hover {
+  background-color: #eee;
+  color: blue;
+}
+
+P {
+  text-align: CENTER;
+}
+
+.push {
+  margin-bottom: 6.4rem;
+}
+
+.gallery {
+  margin: 2.4rem;
+}
+
+iframe {
+  margin: 2.4rem auto;
+  display: block;
+}
+
+.gallery > img {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  display: block;
+}
+
+#reading {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
