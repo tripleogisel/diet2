@@ -9,10 +9,61 @@ body {
   margin: 0px;
 }
 
+#twoRow img {
+ width: 340px;
+}
+
 .duoDiet img {
   width: 200px;
   display: inline-block;
   margin: 0 auto;
+}
+
+.weekend {
+  text-align: center;
+  padding: 4rem 16rem;
+  /* border-top: 224px solid yellow; */
+}
+
+.clear {
+  margin: 2rem auto;
+  color: white;
+}
+
+.clear > input {
+  color: white;
+  padding: 1rem 2rem;
+  background-color: blue;
+  font-size: .75rem;
+}
+
+.mc-field-group {
+  background-color: yellow;
+  padding: 2rem;
+}
+
+.mc-field-group > input {
+  border: 1px solid rgba(0,0,0,.24);
+  margin: 1rem 0rem 0rem 1rem;
+  height: 1rem;
+  width: 12rem;
+  padding: .5rem;
+  font-size: .75rem;
+}
+
+.mc-field-group > input:hover {
+  border: 1px solid rgba(0,0,0,.74);
+}
+
+h4 {
+  /* font-size: 12px; */
+  font-weight: 400;
+  text-align: left;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: normal;
 }
 
 #hero {
@@ -394,6 +445,32 @@ nav>img {
     padding: .5rem;
     display: block;
     border-top: solid 220px #191919;
+  }
+
+  .weekend {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .mc-field-group > input {
+    border: 1px solid rgba(0,0,0,.24);
+    margin: 1rem 0rem;
+    height: 2rem;
+    width: 12rem;
+  }
+
+  .mc-field-group > input:hover {
+    border: 1px solid rgba(0,0,0,.74);
   }
 
   .duoDiet img {
