@@ -9,6 +9,13 @@ body {
   margin: 0px;
 }
 
+#draft {
+  font-size: 14px;
+  width: 80%;
+  display: block;
+
+}
+
 #twoRow img {
  width: 340px;
 }
