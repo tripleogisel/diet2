@@ -26,6 +26,14 @@ body {
   margin: 0 auto;
 }
 
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 .weekend {
   text-align: center;
   padding: 4rem 16rem;
@@ -45,7 +53,7 @@ body {
 }
 
 .mc-field-group {
-  background-color: yellow;
+  background-color: rgba(255,255,0,.34);
   padding: 2rem;
 }
 
@@ -302,16 +310,12 @@ video {
 }
 
 .blog {
-  background-color: yellow;
+  background-color: rgba(255,255,0,.34);
   color: black;
   font-family: serif;
   font-weight: bold;
   padding: 3rem 10rem 3rem 3rem;
   text-align: right;
-}
-
-.blog:hover {
-  background-color: #FEFF84;
 }
 
 .bottom {
@@ -381,18 +385,31 @@ h3 {
   color: black;
 }
 
+.blog p {
+  margin-top: 1.5rem;
+}
+
 .xxx {
-  padding: 10rem;
+  padding: 0rem;
   display: block;
-  border-top: solid 300px #191919;
+  border-top: solid 250px #333333;
+}
+
+#coreText {
+  padding: 5rem 10rem 5rem 10rem;
+}
+
+#basics {
+  padding: 5rem 24rem 10rem 10rem;
+  font-size: 1.75rem;
 }
 
 .xxx:hover {
-    border-top: solid 350px #333333;
+    border-top: solid 255px #333333;
 
 }
 
-.coreText {
+#coreText {
   font-size: 150px;
   text-overflow: clip;
   font-weight: 420;
@@ -407,11 +424,16 @@ nav>img {
 }
 
 .description {
-  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-.basics {
-  padding: 5rem 0rem 0rem;
+.description:hover {
+  background-color: rgba(255,255,0,.34);
+}
+
+.businessName {
+  font-weight: bold;
+  margin-bottom: 0rem;
 }
 
 .gallery {
@@ -445,18 +467,35 @@ nav>img {
 }
 
 
+
 /*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*//*mobile styles*/
 
 @media (max-width: 480px){
-  .xxx {
-    padding: .5rem;
-    display: block;
-    border-top: solid 220px #191919;
+
+  .html {
+    font-size: 14px;
   }
 
   .weekend {
     text-align: center;
     padding: 4rem 2rem;
+  }
+
+  #coreText {
+    padding: 1rem;
+  }
+
+  #basics {
+    padding: 1rem;
+    font-size: 1.75rem;
+  }
+
+  .description {
+    font-size: 1.25rem;
+  }
+
+  .businessName {
+    font-size: 1.25rem;
   }
 
   h2 {
@@ -476,12 +515,17 @@ nav>img {
     width: 12rem;
   }
 
+  .xxx {
+    display: block;
+    border-top: solid 220px #191919;
+  }
+
   .mc-field-group > input:hover {
     border: 1px solid rgba(0,0,0,.74);
   }
 
   .duoDiet img {
-    width: 100px;
+    width: 140px;
     display: inline-block;
     margin: 0 auto;
   }
@@ -515,7 +559,7 @@ nav>img {
     text-align: right;
   }
 
-  .basics {
+  #basics {
     margin: 0rem 1.25rem 0rem 0rem;
   }
 
@@ -528,8 +572,12 @@ nav>img {
     background-color: #fafafa;
   }
 
-  .coreText {
+  #coreText {
     margin-top: 16rem;
     font-size: 48px;
     font-weight: 500;
+  }
+
+  #twoRow img {
+   width: 140px;
   }
