@@ -10,6 +10,7 @@
 
 body {
   margin: 0px;
+  background-color: black;
 }
 
 section {
@@ -23,9 +24,10 @@ section {
 @media (max-width: 500px){
 
   #myVideo {
-    width: auto;
-    height: 100%;
-    overflow: scroll;
-    scroll: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
 }
