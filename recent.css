@@ -7,6 +7,19 @@ body {
   background-color: white;
   color: #191919;
   margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#home-widget {
+  /* display: block; */
+  flex: 1 100%;
+  padding: 1rem 2rem;
+}
+
+section {
+  /* padding: 0 !important; */
+  flex: 1 100%;
 }
 
 #draft {
