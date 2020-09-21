@@ -122,3 +122,12 @@ p {
   }
 
 }
+
+#home-widget {
+  height: 100vh;
+  margin-top: 5vh;
+}
+
+#home-widget iframe {
+  min-height: 100% !important;
+}
