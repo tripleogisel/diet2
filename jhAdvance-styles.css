@@ -8,17 +8,77 @@
   z-index: -1;
 }
 
+html {
+  background-color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #111;
+}
+
+nav {
+  border-top: 100px solid #64c084;
+}
+
 body {
   margin: 0px;
-  background-color: black;
 }
 
 section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.34);
+  display: block;
+  margin: 2rem;
+}
+
+.pageIntro {
+  /* border-top: 1px rgba(255, 255, 255, 0.5) solid; */
+  margin: 6rem auto 2rem;
+  display: block;
+  width: 35%;
+}
+
+nav > img {
+  display: block;
+  margin: 10rem auto 0rem;
+  width: 18%;
+}
+
+a {
+  display: block;
+  margin: 4rem auto 6rem;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #fafafa;
+}
+
+label {
+  display: block;
+  margin: 0 auto .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: medium;
+  font-size: .75rem;
+  text-decoration: none;
+  font-variant: normal;
+  color: #111;
+  text-decoration: none;
+  font-style: italic;
+
+
+}
+
+.bigPictureButton > img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 @media (max-width: 500px){
@@ -30,4 +90,35 @@ section {
     left: 0;
     bottom: 0;
   }
+
+  section {
+    display: block;
+    margin: 2rem;
+  }
+
+  .pageIntro {
+    /* border-top: 1px rgba(255, 255, 255, 0.5) solid; */
+    margin: 6rem auto 2rem;
+    display: block;
+    width: 85%;
+  }
+
+  nav > img {
+    display: block;
+    margin: 2rem auto 0rem;
+    width: 85%;
+  }
+
+  a {
+    display: block;
+    margin: 2rem auto 3rem;
+    text-decoration: none;
+  }
+
+  .bigPictureButton > img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+  }
+
 }
