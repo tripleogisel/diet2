@@ -9,14 +9,13 @@
 }
 
 html {
-  background-color: white;
+  background-color: #eee;
   font-size: 16px;
   font-family: sans-serif;
   color: #111;
 }
 
 nav {
-  border-top: 100px solid #64c084;
 }
 
 body {
@@ -28,53 +27,74 @@ section {
   margin: 2rem;
 }
 
+.allStuff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-basis: 20%;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
 .pageIntro {
   /* border-top: 1px rgba(255, 255, 255, 0.5) solid; */
-  margin: 6rem auto 2rem;
+  margin: 1rem auto 1rem;
   display: block;
-  width: 35%;
+  width: 50%;
 }
 
 nav > img {
   display: block;
-  margin: 10rem auto 0rem;
+  margin: 2rem auto 0rem;
   width: 18%;
+}
+
+.allStuff > a {
+  display: block;
 }
 
 a {
   display: block;
-  margin: 4rem auto 6rem;
+  margin: 1rem auto 1rem;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #fafafa;
+  font-weight: bold;
+  color: #64c084;
+  text-decoration: underline;
+}
+
+a:hover > .bigPictureButton {
+  width: 101%;
+  height: 101%;
 }
 
 label {
   display: block;
-  margin: 0 auto .5rem;
+  margin: 4rem auto .5rem;
   text-align: center;
   text-transform: uppercase;
   font-weight: medium;
-  font-size: .75rem;
+  font-size: 1rem;
   text-decoration: none;
   font-variant: normal;
   color: #111;
   text-decoration: none;
   font-style: italic;
-
-
 }
 
 .bigPictureButton > img {
   display: block;
   margin: 0 auto;
-  width: 35%;
+  width: 100%;
+  max-width: 600px;
 }
 
 h1 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 p {
