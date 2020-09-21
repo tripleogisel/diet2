@@ -125,7 +125,9 @@ p {
 
 #home-widget {
   height: 100vh;
-  margin-top: 5vh;
+  width: 50vw;
+  display: block;
+  margin: 5vh auto;
 }
 
 #home-widget iframe {
