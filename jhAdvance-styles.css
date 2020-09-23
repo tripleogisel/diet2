@@ -16,7 +16,35 @@ html {
 }
 
 nav {
+  display: block;
+  height: 5rem;
+  margin-bottom: 4rem;
 }
+
+nav > a > img {
+  display: block;
+  float:left;
+  margin: 2.5rem 0rem 2.5rem 2.5rem;
+  width: 15%;
+}
+
+.navButtons {
+  display: inline-block;
+  float: right;
+  margin: 3.75rem 2.5rem 2.5rem 0rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.navButtons > a {
+  margin-right: 1.25rem;
+  font-weight: 500;
+}
+
+.navButtons > a:visited {
+  color: #111;
+}
+
 
 body {
   margin: 0px;
@@ -28,13 +56,9 @@ section {
 }
 
 .allStuff {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  flex-basis: 20%;
-  justify-content: space-around;
-  align-items: flex-start;
+  display: block;
   margin: 0 auto;
+  padding: 0rem 4rem 0rem 4rem;
 }
 
 .pageIntro {
@@ -44,61 +68,129 @@ section {
   width: 50%;
 }
 
-nav > img {
-  display: block;
-  margin: 2rem auto 0rem;
-  width: 18%;
-}
-
 .allStuff > a {
-  display: block;
-}
-
-a {
   display: block;
   margin: 1rem auto 1rem;
   text-decoration: none;
 }
 
 a:hover {
-  font-weight: bold;
-  color: #64c084;
+  color: #63C084;
   text-decoration: underline;
 }
 
-a:hover > .bigPictureButton {
-  width: 101%;
-  height: 101%;
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+    color: #63C084;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #F6FBF8;
+}
+
+.sideBySide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0rem;
+}
+
+
+.sideBySide > a {
+  margin: 2rem;
 }
 
 label {
   display: block;
-  margin: 4rem auto .5rem;
+  margin: 2rem auto 1rem;
   text-align: center;
-  text-transform: uppercase;
   font-weight: medium;
   font-size: 1rem;
   text-decoration: none;
   font-variant: normal;
   color: #111;
   text-decoration: none;
-  font-style: italic;
+}
+
+label:hover {
+  color: #63C084;
+}
+
+.bigPictureButton {
+  padding: .25rem 0rem;
 }
 
 .bigPictureButton > img {
   display: block;
+  width: 90%;
   margin: 0 auto;
-  width: 100%;
-  max-width: 600px;
+  padding: 1rem 4rem 4rem 4rem;
 }
+
+.sidePictureButton > img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
 
 h1 {
   font-size: 2.5rem;
   text-align: center;
+  margin: 2em 0rem 0rem 0rem;
 }
 
 p {
   font-size: 1.25rem;
+  text-align: center;
+}
+
+.workoutList {
+  margin-top: 1rem;
+}
+
+.workoutList > p {
+  display: inline-block;
+  text-decoration: none;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.workoutList > p:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+.workoutList > a {
+  text-decoration: none;
+}
+
+.workoutList > a:visited {
+  text-decoration: none;
+  color: #111;
+}
+
+.drillPart {
+  margin-top: 4rem;
+}
+
+.amountName {
+  font-weight: bold;
+}
+
+.finePrint {
+  display: block;
+  font-size: .75rem;
+  line-height: .5rem;
+  font-weight: 100;
+}
+
+.workoutList {
+  text-align: center;
 }
 
 @media (max-width: 500px){
@@ -123,10 +215,55 @@ p {
     width: 85%;
   }
 
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .bigPictureButton > img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0rem;
+  }
+
   nav > img {
     display: block;
-    margin: 2rem auto 0rem;
+    margin: 0rem auto;
     width: 85%;
+    float: none;
+  }
+
+  nav {
+    display: block;
+    height: 16rem;
+    margin-bottom: 4rem;
+  }
+
+  nav > a > img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    float: none;
+  }
+
+
+  .navButtons {
+    display: block;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    float: none;
+    margin: 0rem;
+    text-decoration: underline;
+  }
+
+  label {
+    margin-top: 4rem;
+  }
+
+  .navButtons > a {
+    margin-right: 0rem;
+    font-weight: 500;
   }
 
   a {
@@ -135,10 +272,19 @@ p {
     text-decoration: none;
   }
 
+  .allStuff {
+    padding: 1rem;
+  }
+
+  .sideBySide {
+    display: block;
+    padding: 0rem;
+  }
+
   .bigPictureButton > img {
     display: block;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
   }
 
 }
