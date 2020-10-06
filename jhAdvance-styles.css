@@ -68,6 +68,15 @@ section {
   width: 50%;
 }
 
+.pageIntro > p {
+  text-align: left;
+}
+
+#textLink {
+  color: blue;
+  text-decoration: underline;
+}
+
 .allStuff > a {
   display: block;
   margin: 1rem auto 1rem;
