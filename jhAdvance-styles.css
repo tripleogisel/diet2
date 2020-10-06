@@ -39,6 +39,7 @@ nav > a > img {
 .navButtons > a {
   margin-right: 1.25rem;
   font-weight: 500;
+  color: #111;
 }
 
 .navButtons > a:visited {
@@ -273,12 +274,12 @@ p {
   .navButtons > a {
     margin-right: 0rem;
     font-weight: 500;
+    display: block;
+    margin: 2rem auto 3rem;
+    color: #111;
   }
 
   a {
-    display: block;
-    margin: 2rem auto 3rem;
-    text-decoration: none;
   }
 
   .allStuff {
