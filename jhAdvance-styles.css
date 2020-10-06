@@ -32,7 +32,7 @@ nav > a > img {
   display: inline-block;
   float: right;
   margin: 3.75rem 2.5rem 2.5rem 0rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1rem;
 }
 
@@ -60,6 +60,7 @@ section {
   display: block;
   margin: 0 auto;
   padding: 0rem 4rem 0rem 4rem;
+  background-color: #e8e8e8;
 }
 
 .pageIntro {
@@ -96,10 +97,10 @@ a:-webkit-any-link {
 }
 
 a:-webkit-any-link:hover {
-    color: #63C084;
+    /* color: #63C084; */
     cursor: pointer;
     text-decoration: underline;
-    background-color: #F6FBF8;
+    background-color: #ddd;
 }
 
 .sideBySide {
@@ -254,6 +255,14 @@ p {
     margin: 0 auto;
     width: 50%;
     float: none;
+  }
+
+  #topNav {
+    color: #111;
+  }
+
+  #topNav:hover {
+    background-color: #eee;
   }
 
 
